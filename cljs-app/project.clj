@@ -7,9 +7,13 @@
                  [org.clojure/clojurescript "1.10.339"]
                  [hiccups "0.3.0"]]
 
-  :plugins [[lein-cljsbuild "1.1.7"]]
+  :plugins [[lein-cljsbuild "1.1.7"]
+            [lein-figwheel "0.5.16"]]
   :cljsbuild
   {:builds [{:source-paths ["src"]
+             ;;:figwheel true
              :compiler {:output-to "resources/public/js/main.js"
                         :optimizations :whitespace
-                        :pretty-print true}}]})
+                        :pretty-print true}}]}
+  ;;:figwheel
+  )
