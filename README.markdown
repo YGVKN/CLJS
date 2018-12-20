@@ -1,2 +1,2 @@
 # CLJS
-![clojureScript](https://media.giphy.com/media/dzdYp18uF8a3e/giphy.gif)
+![](https://media.giphy.com/media/2JcgbMFMf1l6g/giphy.gif)
